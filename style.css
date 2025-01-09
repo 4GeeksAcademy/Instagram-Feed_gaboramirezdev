@@ -1,0 +1,74 @@
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.actionbuttons{
+display: flex;
+gap: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.insta_logo{
+    width: 140px;
+    height: 50px;
+}
+
+
+/* Instagram photofeed*/
+
+body {
+    margin: 0;
+  }
+  
+ 
+  
+  .main-content {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* text-align: center; */
+  }
+  .card {
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    display: inline-block;
+  }
+  
+  .card-title {
+    display: flex;
+    height: 50px;
+  }
+  
+  .card-footer {
+    margin-top: 5px;
+    padding: 15px;
+  }
+  
+  h1 {
+    margin-left: -150px;
+  }
+  
+  img {
+    width:480px;
+    height: 350px;
+  }
+  
+  h3 {
+    width: 400px;
+    margin-left: 15px;
+  }
+  
+  .card-title p {
+    color: aqua;
+  }
