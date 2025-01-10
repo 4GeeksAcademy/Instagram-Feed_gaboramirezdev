@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.hidden {
+  display: none;
+}
 .actionbuttons{
 display: flex;
 gap: 5px;
