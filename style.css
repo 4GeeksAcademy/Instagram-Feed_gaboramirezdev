@@ -5,29 +5,11 @@
 .hidden {
   display: none;
 }
-.actionbuttons{
-display: flex;
-gap: 5px;
-margin-right: 20px;
-}
 
-.insta_icon{
-  margin-left: 10px;
-  margin-right: 5px;
-  font-size: 45px;
-}
 
-.buttons{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 10px;
-}
 
-.logo{
-  display: flex;
-  align-items: center;
-}
+
+
 
 
 /*Grid layout*/
@@ -52,12 +34,7 @@ body {
   
  
   
-  .main-content {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    /* text-align: center; */
-  }
+
   .card {
     width: 500px;
     margin: auto;
@@ -94,6 +71,8 @@ body {
     color: aqua;
   }
 
+
+  /*Example media query*/
   @media screen and (min-width: 480px) and (max-width: 500px) {
     #create_post  {
        background-color: lightgreen;
